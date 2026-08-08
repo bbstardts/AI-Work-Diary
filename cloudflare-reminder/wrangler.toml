@@ -13,6 +13,3 @@ crons = ["*/15 * * * *"]
 [[kv_namespaces]]
 binding = "SUBSCRIPTIONS"
 id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
-
-# cloudflare-reminder/wrangler.toml
-name = 'ai-work-diary'
