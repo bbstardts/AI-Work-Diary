@@ -15,4 +15,4 @@ binding = "SUBSCRIPTIONS"
 id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 
 # cloudflare-reminder/wrangler.toml
-name = 'daybook'
+name = 'ai-work-diary'
