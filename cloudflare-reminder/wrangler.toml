@@ -1,0 +1,15 @@
+name = "work-diary-reminder"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Runs the reminder check every 15 minutes, free on Cloudflare's free plan.
+[triggers]
+crons = ["*/15 * * * *"]
+
+# Storage for device subscriptions (free tier: 1GB storage, 100k reads/writes per day).
+# The namespace id below is filled in after running:
+#   npx wrangler kv namespace create SUBSCRIPTIONS
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"

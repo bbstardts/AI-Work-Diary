@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "weekStart": { "type": "string" },
+    "weekEnd": { "type": "string" },
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "achievements": { "type": "array", "items": { "type": "string" } },
+    "challenges": { "type": "array", "items": { "type": "string" } },
+    "resolutions": { "type": "array", "items": { "type": "string" } },
+    "recurring_problems": { "type": "array", "items": { "type": "string" } },
+    "productivity": { "type": "string" },
+    "recommendations": { "type": "array", "items": { "type": "string" } },
+    "daily_summaries": { "type": "array", "items": { "type": "object" } },
+    "generatedAt": { "type": "string" }
+  },
+  "required": ["weekStart", "weekEnd"],
+  "name": "DiaryReport",
+  "type": "object"
+}

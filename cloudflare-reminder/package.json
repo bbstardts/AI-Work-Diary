@@ -1,0 +1,14 @@
+{
+  "name": "work-diary-reminder",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

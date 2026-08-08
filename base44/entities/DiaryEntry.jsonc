@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "local_id": {
+      "type": "string",
+      "description": "The entry's local id on-device, used to match/merge during restore"
+    },
+    "date": { "type": "string", "description": "Entry date, YYYY-MM-DD" },
+    "time": { "type": "string" },
+    "department": { "type": "string" },
+    "tasks": { "type": "string" },
+    "itemsReceived": { "type": "string" },
+    "itemsIssued": { "type": "string" },
+    "problems": { "type": "string" },
+    "solutions": { "type": "string" },
+    "observations": { "type": "string" },
+    "photos": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Compressed JPEG data URLs attached to the entry"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "ISO timestamp of the last local edit, used to resolve sync conflicts"
+    }
+  },
+  "required": ["local_id", "date"],
+  "name": "DiaryEntry",
+  "type": "object"
+}
