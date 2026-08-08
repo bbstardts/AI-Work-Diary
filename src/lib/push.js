@@ -9,7 +9,7 @@
 // time, every day.
 
 // Fill this in after deploying the Worker (see cloudflare-reminder/README.md).
-const WORKER_URL = 'https://work-diary-reminder.YOUR-SUBDOMAIN.workers.dev';
+const WORKER_URL = 'https://work-diary-reminder.bbstarbobola.workers.dev';
 
 const VAPID_PUBLIC_KEY = 'BB85Hqh51deHXZQq_G0Fq9fukY3I2HDG36W0IR2Rjd75Tnrd4pDDlIKDgqM4Sfjcs9KMz_ei2SVDPfMI6pph11M';
 
